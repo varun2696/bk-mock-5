@@ -1,11 +1,13 @@
 {
   "name": "bk-mock-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "-",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start":"node index.js",
+    "build": "rimraf dist"
   },
   "keywords": [],
   "author": "",
